@@ -1,0 +1,27 @@
+.resource-card {
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #444;
+}
+
+p {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}

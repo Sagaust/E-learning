@@ -1,0 +1,17 @@
+.forum-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.topic-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: calc(33.333% - 20px);
+}

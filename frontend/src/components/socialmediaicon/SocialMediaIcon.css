@@ -1,0 +1,11 @@
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
