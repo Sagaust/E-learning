@@ -1,0 +1,16 @@
+.notifications-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.notifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notification-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

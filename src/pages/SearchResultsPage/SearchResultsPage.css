@@ -1,0 +1,11 @@
+.search-results-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.results-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

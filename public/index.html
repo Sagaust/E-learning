@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">E-Learning Platform</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/quizzes">Quizzes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="jumbotron">
+        <h1 class="display-4">Welcome to the E-Learning Platform</h1>
+        <p class="lead">Join us and explore a world of knowledge.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="/signup" role="button">Get Started</a>
+    </header>
+
+    <!-- Courses Overview -->
+    <section class="container">
+        <h2>Featured Courses</h2>
+        <div class="row">
+            <!-- Sample Course -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path_to_course_image" class="card-img-top" alt="Course Name">
+                    <div class="card-body">
+                        <h5 class="card-title">Course Name</h5>
+                        <p class="card-text">Short description of the course.</p>
+                        <a href="/course-detail" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat .col-md-4 for other courses -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 p-4">
+        <div class="container">
+            <p>&copy; 2023 E-Learning Platform. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/about" class="text-white">About Us</a></li>
+                <li class="list-inline-item"><a href="/contact" class="text-white">Contact</a></li>
+                <li class="list-inline-item"><a href="/terms" class="text-white">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
