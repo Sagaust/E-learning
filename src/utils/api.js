@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'https://your-backend-url.com/api';
+const API_URL = 'https://www.africanphilosophers.online/api/';
 
 export const fetchData = async (endpoint) => {
   try {
